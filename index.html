@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Método DESACELERE: 30 dias para reduzir a ansiedade e prevenir o esgotamento | Claudio Nunes</title>
+<meta name="description" content="Plano de 30 dias, em e-book, para quem leva a mente acelerada e o cansaço para a cama. Reduza a ansiedade, diminua a necessidade de controlar tudo e previna o esgotamento.">
+<meta property="og:title" content="Método DESACELERE: 30 dias para reduzir a ansiedade e prevenir o esgotamento">
+<meta property="og:description" content="Plano prático de 30 dias, com e-book, Kit Desacelere e 7 bônus.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0C2630; --petrol:#163A46; --petrol2:#1F4B58; --mist:#EEF4F4; --fog:#D9E6E7;
+  --amber:#F0B23E; --amber-d:#D99A22; --white:#FFFFFF;
+  --serif:'Lora',Georgia,'Times New Roman',serif;
+  --sans:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--white);line-height:1.6;font-size:17px;-webkit-text-size-adjust:100%}
+img,svg{max-width:100%}
+a{color:inherit}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 22px}
+section{padding:64px 0}
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.02em;line-height:1.15}
+h1{font-size:clamp(34px,8vw,54px)}
+h2{font-size:clamp(28px,6vw,40px);margin-bottom:22px}
+h3{font-size:22px}
+p{margin-bottom:16px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;color:var(--amber-d)}
+.btn{display:inline-block;background:var(--amber);color:var(--ink);font-weight:700;font-size:18px;text-decoration:none;padding:18px 30px;border-radius:14px;text-align:center;transition:transform .15s ease,background .15s ease;box-shadow:0 10px 28px rgba(240,178,62,.28)}
+.btn:hover{background:#f6c25f;transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--white);outline-offset:3px}
+.btn.block{display:block}
+.note{font-size:14px;opacity:.78;margin-top:14px}
+
+/* HERO */
+.hero{background:var(--ink);color:#F2F6F6;position:relative;overflow:hidden;padding:30px 0 72px}
+.hero svg.rings{position:absolute;right:-180px;bottom:-200px;width:760px;height:760px;opacity:.55;pointer-events:none}
+.hero .wrap{position:relative}
+.brand{font-size:14px;font-weight:500;opacity:.8;margin-bottom:56px}
+.hero p.lead{font-size:19px;opacity:.9;margin:22px 0 30px;max-width:560px}
+.hero .eyebrow{color:var(--amber)}
+.price-line{margin-top:18px;font-size:15px;opacity:.85}
+.price-line b{color:var(--amber);font-size:20px}
+
+/* DOR */
+.pain{background:var(--mist)}
+.pain ul{list-style:none;margin:26px 0 8px}
+.pain li{padding:16px 0 16px 0;border-bottom:1.5px solid rgba(12,38,48,.14);font-size:18px}
+.pain li:first-child{border-top:1.5px solid rgba(12,38,48,.14)}
+.pain .close{margin-top:22px;font-weight:600}
+
+/* NÃO É FRAQUEZA */
+.shift{background:var(--petrol);color:#F2F6F6}
+.shift h2{color:#fff}
+.shift .fact{margin-top:28px;border-left:4px solid var(--amber);padding:6px 0 6px 20px;font-size:17px;opacity:.95}
+.shift .fact small{display:block;opacity:.75;margin-top:8px;font-size:13px}
+
+/* MÉTODO */
+.steps{margin-top:26px;display:grid;gap:14px}
+.step{background:var(--mist);border-radius:18px;padding:22px}
+.step b{font-family:var(--serif);font-size:20px;display:block;margin-bottom:4px}
+.step span{font-size:16px;opacity:.9}
+.method-close{margin-top:24px;font-weight:600}
+
+/* O QUE RECEBE */
+.get{background:var(--mist)}
+.items{margin-top:26px;border-top:1.5px solid rgba(12,38,48,.16)}
+.item{padding:22px 0;border-bottom:1.5px solid rgba(12,38,48,.16)}
+.item h3{font-size:21px;margin-bottom:6px}
+.item p{margin:0;font-size:16px;opacity:.88}
+.gift{margin-top:28px;background:var(--ink);color:#F2F6F6;border-radius:20px;padding:26px}
+.gift h3{color:var(--amber);margin-bottom:8px}
+.gift p{margin:0;opacity:.92;font-size:16px}
+
+/* PARA QUEM */
+.two{display:grid;gap:18px;margin-top:24px}
+.card{border-radius:18px;padding:24px}
+.card.yes{background:var(--mist)}
+.card.no{background:#FFF6E6}
+.card h3{margin-bottom:10px}
+.card ul{padding-left:20px;font-size:16px}
+.card li{margin-bottom:8px}
+
+/* AUTOR */
+.author{background:var(--ink);color:#F2F6F6}
+.author h2{color:#fff}
+.author .handle{display:inline-block;margin-top:6px;color:var(--amber);font-weight:600;text-decoration:none}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin:24px 0 8px}
+.stats div{font-size:14px;opacity:.85}
+.stats b{display:block;font-family:var(--serif);font-size:34px;color:var(--amber);font-weight:500;line-height:1.1}
+
+/* GARANTIA + FAQ */
+.guar{background:var(--mist)}
+.seal{display:flex;gap:18px;align-items:flex-start}
+.seal .n{flex:none;width:76px;height:76px;border-radius:50%;background:var(--ink);color:var(--amber);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--serif);font-size:30px;line-height:1}
+.seal .n small{font-family:var(--sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
+details{border-bottom:1.5px solid rgba(12,38,48,.16);padding:18px 0}
+details:first-of-type{border-top:1.5px solid rgba(12,38,48,.16)}
+summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:24px;line-height:1;color:var(--amber-d)}
+details[open] summary::after{content:"–"}
+details p{margin:12px 0 0;font-size:16px;opacity:.9}
+
+/* CTA FINAL */
+.final{background:var(--petrol);color:#F2F6F6;text-align:center}
+.final h2{color:#fff}
+.final .price{font-family:var(--serif);font-size:56px;color:var(--amber);line-height:1;margin:18px 0 6px}
+.final .price small{font-family:var(--sans);font-size:16px;color:#F2F6F6;opacity:.8;display:block;margin-top:8px}
+.final .btn{margin-top:24px;width:100%;max-width:440px}
+footer{background:var(--ink);color:#F2F6F6;padding:34px 0 110px;font-size:13px;opacity:.95}
+footer p{opacity:.75;margin-bottom:10px}
+
+/* BARRA FIXA (celular) */
+.bar{position:fixed;left:0;right:0;bottom:0;background:rgba(12,38,48,.96);padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:space-between;gap:14px;z-index:20;transform:translateY(110%);transition:transform .25s ease}
+.bar.on{transform:none}
+.bar span{color:#F2F6F6;font-size:14px;line-height:1.3}
+.bar span b{color:var(--amber);font-size:18px;display:block}
+.bar .btn{padding:13px 20px;font-size:16px;box-shadow:none;white-space:nowrap}
+@media(min-width:760px){.bar{display:none}footer{padding-bottom:34px}.two{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <svg class="rings" viewBox="0 0 760 760" aria-hidden="true">
+    <g fill="none" stroke="#F0B23E" stroke-width="2.5">
+      <circle cx="380" cy="380" r="60" opacity=".5"/><circle cx="380" cy="380" r="108" opacity=".42"/>
+      <circle cx="380" cy="380" r="156" opacity=".36"/><circle cx="380" cy="380" r="204" opacity=".3"/>
+      <circle cx="380" cy="380" r="252" opacity=".24"/><circle cx="380" cy="380" r="300" opacity=".18"/>
+      <circle cx="380" cy="380" r="348" opacity=".12"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <div class="brand">Claudio Nunes &nbsp;|&nbsp; Lidera Treinamentos</div>
+    <div class="eyebrow">Método DESACELERE • Sua fase não te define</div>
+    <h1>Método DESACELERE: 30 dias para reduzir a ansiedade e prevenir o esgotamento</h1>
+    <p class="lead">Um plano de 30 dias, em e-book, para quem leva o trabalho, a casa e a responsabilidade pelos outros para a cama e descansa sentindo culpa. Passos pequenos, que cabem em uma rotina cheia.</p>
+    <a class="btn" href="https://pay.kiwify.com.br/UTkc41X" id="cta-top">Quero desacelerar a minha mente</a>
+    <div class="price-line">Pagamento único de <b>R$ 29,90</b> &nbsp;·&nbsp; acesso imediato</div>
+    <div class="note" style="opacity:.7">Compra segura pela Kiwify · 7 dias de garantia</div>
+  </div>
+</header>
+
+<section class="pain">
+  <div class="wrap">
+    <div class="eyebrow">Você se reconhece?</div>
+    <h2>Quando o cansaço deixa de ser normal</h2>
+    <p>Você cuida do trabalho, da casa, das pessoas e de tudo o que precisa de você. E, quando finalmente para, a cabeça continua correndo.</p>
+    <ul>
+      <li>Acordar sem energia, mesmo depois de dormir a noite inteira.</li>
+      <li>Repassar reuniões, conversas e tarefas na cama, listando pendências.</li>
+      <li>Sentir culpa quando tenta descansar ou ficar sem fazer nada.</li>
+      <li>Ficar irritável com pequenas coisas e esquecer coisas simples.</li>
+      <li>Sentir o corpo em alerta: ombros tensos, mandíbula travada.</li>
+      <li>Achar que, se você não conferir tudo, algo vai dar errado.</li>
+    </ul>
+    <p class="close">Se você se identificou com dois ou mais, vale olhar para isso agora, e não quando o corpo pedir pausa à força.</p>
+  </div>
+</section>
+
+<section class="shift">
+  <div class="wrap">
+    <div class="eyebrow">Mudança de olhar</div>
+    <h2>Isso não é fraqueza. É sobrecarga sem pausa.</h2>
+    <p>A nossa mente ficou viciada em estar ocupada. A gente trabalha cansado e tenta descansar sentindo culpa. O resultado é um esgotamento que nenhuma noite de sono parece resolver.</p>
+    <p>A boa notícia: ruído mental se treina. Com pequenas práticas, aplicadas todos os dias, é possível desacelerar.</p>
+    <div class="fact">A Organização Mundial da Saúde reconhece o burnout, na CID-11, como um fenômeno ocupacional, ligado ao estresse crônico no trabalho.<small>Fonte: OMS, CID-11.</small></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">O Método</div>
+    <h2>Um plano de 30 dias, em passos pequenos</h2>
+    <p>O Método DESACELERE foi pensado para quem já está com a rotina no limite e não tem tempo nem energia para mais uma obrigação. Você avança aos poucos, com ferramentas simples de aplicar no dia a dia, seja no trabalho, em casa, com a família ou liderando uma equipe.</p>
+    <div class="steps">
+      <div class="step"><b>Perceber</b><span>Identifique os gatilhos e os sinais que o seu corpo e a sua mente já estão dando.</span></div>
+      <div class="step"><b>Desacelerar</b><span>Aplique pausas e técnicas para os momentos de pico de estresse e ansiedade.</span></div>
+      <div class="step"><b>Reorganizar</b><span>Ajuste o ambiente digital, a rotina e a forma de conduzir as suas responsabilidades, com menos necessidade de controlar tudo.</span></div>
+      <div class="step"><b>Sustentar</b><span>Acompanhe a sua evolução e transforme as práticas em hábito.</span></div>
+    </div>
+    <p class="method-close">Você não precisa mudar a sua vida em 30 dias. Precisa começar a tratá-la com menos pressa por dentro.</p>
+  </div>
+</section>
+
+<section class="get">
+  <div class="wrap">
+    <div class="eyebrow">O que você recebe</div>
+    <h2>Tudo em um único pacote</h2>
+    <p>Por R$ 29,90, em pagamento único, você recebe o método completo e as ferramentas para colocá-lo em prática desde o primeiro dia.</p>
+    <div class="items">
+      <div class="item"><h3>E-book Desacelere a Mente (49 páginas)</h3><p>O livro com o método: técnicas diretas para lidar com a ansiedade, o excesso de pensamentos e os picos de estresse.</p></div>
+      <div class="item"><h3>Kit Desacelere</h3><p>Ferramentas práticas para aplicar no dia a dia e acompanhar o seu progresso durante os 30 dias.</p></div>
+      <div class="item"><h3>7 bônus práticos</h3><p>Entre eles, o Guia de Higiene Digital e o Roteiro de Áudios de Emergência, além de outros materiais de apoio para o sono, o foco e a rotina.</p></div>
+    </div>
+    <div class="gift">
+      <h3>Presente: Termômetro do Estresse vs. Burnout</h3>
+      <p>Uma autoavaliação para você perceber, semana a semana, quando o cansaço normal está virando exaustão. É educativo e não substitui avaliação profissional. Para quem quer testar antes, comente ANSIEDADE no Instagram @claudionunes.oficial e receba no direct.</p>
+    </div>
+    <div style="text-align:center;margin-top:34px"><a class="btn" href="https://pay.kiwify.com.br/UTkc41X" id="cta-mid">Quero começar agora por R$ 29,90</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">É para você?</div>
+    <h2>Para quem é, e para quem não é</h2>
+    <div class="two">
+      <div class="card yes"><h3>É para você se…</h3><ul>
+        <li>Trabalha muito e sente que a mente não desliga.</li>
+        <li>Cuida de pessoas, de uma casa, de uma equipe ou de uma empresa e carrega responsabilidade demais.</li>
+        <li>Sente que precisa controlar tudo para as coisas darem certo.</li>
+        <li>Quer práticas simples, sem prometer milagre.</li>
+      </ul></div>
+      <div class="card no"><h3>Não é para você se…</h3><ul>
+        <li>Procura um tratamento ou um diagnóstico. O método é educativo e não substitui acompanhamento profissional.</li>
+        <li>Está em sofrimento intenso: nesse caso, procure ajuda profissional agora. O CVV atende pelo 188, 24 horas, de graça.</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="author">
+  <div class="wrap">
+    <div class="eyebrow">Quem escreve</div>
+    <h2>Claudio Nunes</h2>
+    <p>Autor do livro Desacelere a Mente e fundador da Lidera Treinamentos. Ajuda pessoas, líderes, empresários e equipes a cuidar da própria mente sem abrir mão da performance.</p>
+    <div class="stats">
+      <div><b>8 anos</b>de experiência</div>
+      <div><b>500+</b>pessoas treinadas</div>
+      <div><b>8</b>empresas atendidas</div>
+    </div>
+    <a class="handle" href="https://instagram.com/claudionunes.oficial" rel="noopener">@claudionunes.oficial</a>
+  </div>
+</section>
+
+<section class="guar">
+  <div class="wrap">
+    <div class="seal">
+      <div class="n">7<small>dias</small></div>
+      <div>
+        <h2 style="margin-bottom:10px">Garantia de 7 dias</h2>
+        <p>Acesse o material, leia e aplique. Se por qualquer motivo não fizer sentido para você, peça o reembolso em até 7 dias, direto pela Kiwify. Você pode experimentar com tranquilidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Dúvidas</div>
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Como recebo o material?</summary><p>Logo após a confirmação do pagamento, você recebe o acesso por e-mail, pela Kiwify.</p></details>
+    <details><summary>Em que formato é o conteúdo?</summary><p>Digital: e-book e materiais de apoio para ler e usar no celular, no computador ou imprimir.</p></details>
+    <details><summary>Preciso de muito tempo por dia?</summary><p>Não. O plano foi pensado para encaixar na rotina de quem já está com a agenda cheia, com práticas curtas e simples.</p></details>
+    <details><summary>Serve só para quem é líder?</summary><p>Não. O método foi escrito para qualquer pessoa que sente a mente acelerada e o corpo cansado, seja no trabalho, em casa ou nos dois.</p></details>
+    <details><summary>Isso substitui terapia ou acompanhamento médico?</summary><p>Não. O Método é um material educativo, de autoconhecimento e apoio no dia a dia. Se você sente sofrimento intenso, procure um profissional de saúde. Em caso de crise, ligue para o CVV no 188 (24 horas, gratuito).</p></details>
+    <details><summary>Quais são as formas de pagamento?</summary><p>O pagamento é feito em ambiente seguro da Kiwify. As formas disponíveis aparecem na tela de compra.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia para pedir o reembolso, direto pela Kiwify.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Você não precisa esperar o corpo pedir pausa à força</h2>
+    <p>Desacelerar não é fazer menos por quem você ama. É aprender a dar conta sem viver em alerta o tempo todo. Em 30 dias, com passos pequenos, você pode começar a perceber a diferença no sono, no foco e na forma como reage ao dia.</p>
+    <p>E-book + Kit Desacelere + 7 bônus + o Termômetro do Estresse vs. Burnout.</p>
+    <div class="price">R$ 29,90<small>pagamento único · acesso imediato</small></div>
+    <a class="btn block" href="https://pay.kiwify.com.br/UTkc41X" id="cta-final" style="margin-left:auto;margin-right:auto">Quero começar a desacelerar hoje</a>
+    <div class="note">Acesso imediato por e-mail · Compra segura pela Kiwify · Garantia de 7 dias</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Claudio Nunes &nbsp;|&nbsp; Lidera Treinamentos &nbsp;|&nbsp; <a href="https://instagram.com/claudionunes.oficial" rel="noopener">@claudionunes.oficial</a></p>
+    <p>Este material tem caráter educativo e não substitui avaliação, diagnóstico ou tratamento profissional. Os resultados variam de pessoa para pessoa. Em caso de sofrimento intenso, procure um profissional de saúde ou ligue para o CVV no 188.</p>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <span>Método DESACELERE<b>R$ 29,90</b></span>
+  <a class="btn" href="https://pay.kiwify.com.br/UTkc41X">Quero agora</a>
+</div>
+
+<script>
+(function(){
+  var bar=document.getElementById('bar'),top=document.getElementById('cta-top');
+  function upd(){var r=top.getBoundingClientRect();bar.classList.toggle('on',r.bottom<0);}
+  window.addEventListener('scroll',upd,{passive:true});upd();
+})();
+</script>
+</body>
+</html>
